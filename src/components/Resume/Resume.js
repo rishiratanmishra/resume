@@ -63,7 +63,7 @@ const Resume = () => {
 
                   <div className="inter high-school">
                   <div className='school-name'>Heritage International School <span className='school-tenth'>2017</span></div>
-                      <div className='college-course'>10th (CBSE BOARD)</div> 
+                      <div className='college-course school-class'>10th (CBSE)</div> 
                       <p>Marks : 9.2 CGPA</p>
                   </div>
 
@@ -72,28 +72,28 @@ const Resume = () => {
           
               <div className="skills">
                   <h3>Technical Skills</h3>
+
+
                   <div className='skill-body'>
 
-                  <div className='col-1'>
-                      <button className='button'>JavaScript </button>
-                      <button className='button'>React </button>
-                      <button className='button'>REST APIs</button>
-                      
-                  
+                  <div className='col'>
+                  <button className='button crew'>React </button>
+                  <button className='button crew'>Javascript </button>
+                      <button className='button crew'>REST APIs</button>
                       </div>
 
 
-                      <div className='col-2'>
-                      <button className='button'>SEO</button>
-                      <button className='button'>JAVA </button>
-                      <button className='button'>DSA </button>
+                      <div className='col'>
+                      <button className='button crew'>SEO</button>
+                      <button className='button crew'>JAVA </button>
+                      <button className='button crew'>DSA </button>
                       
                       </div>
 
-                  <div className='col-3'>
-                 <button className='button'>NodeJs </button>
-                 <button className='button'>ExpressJs </button>  
-                  <button className='button'>Wordpress </button>
+                  <div className='col'>
+                 <button className='button crew'>NodeJs </button>
+                 <button className='button crew'>ExpressJs </button>  
+                  <button className='button crew'>Wordpress </button>
                   </div>      
                   
                       
@@ -143,11 +143,11 @@ const Resume = () => {
 
               
               <div className="works with-projects">
-                  
+                  <ul>
                   <li> Agniveeram Coaching Institute is created using <b>React</b> and<b> SwiperJs</b>(Javascript library). <br /></li>
                
                  <li> Developed responsive user interface components via React concepts. </li> 
-                  </div>
+                 </ul> </div>
           
           
           

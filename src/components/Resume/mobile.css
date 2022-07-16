@@ -92,20 +92,19 @@
        
        }
        .school{
-           margin-left: 0rem;
-           font-size: 10px;
-           color: rgb(131, 124, 124);
-           font-family: 'Merienda', cursive;
-           float: right;
+        margin-left: 0rem;
+        font-size: 10px;
+        font-family: 'Merienda', cursive;
+        color: rgb(131, 124, 124);
+        float: right;
        
        
        }
        .school-tenth{
-       
-           margin-left: 17rem;
+           margin-left: 0rem;
            font-size: 10px;
-           color: rgb(131, 124, 124);
            font-family: 'Merienda', cursive;
+           color: rgb(131, 124, 124);
            float: right;
        
        
