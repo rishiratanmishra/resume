@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.03a5d82c.css",
+    "main.js": "/resume/static/js/main.9a5aebed.js",
+    "static/media/rishi.jpeg": "/resume/static/media/rishi.20e37997d1425b16ce9d.jpeg",
+    "index.html": "/resume/index.html",
+    "main.03a5d82c.css.map": "/resume/static/css/main.03a5d82c.css.map",
+    "main.9a5aebed.js.map": "/resume/static/js/main.9a5aebed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03a5d82c.css",
+    "static/js/main.9a5aebed.js"
+  ]
+}
