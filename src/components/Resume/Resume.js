@@ -78,21 +78,27 @@ const Resume = () => {
                       <button className='button'>JavaScript </button>
                       <button className='button'>React </button>
                       <button className='button'>REST APIs</button>
-                      <button className='button'>NodeJs </button>
+                      
                   
                       </div>
-                      <center>
-                  <div className='col-2'>
 
+
+                      <div className='col-2'>
+                      <button className='button'>SEO</button>
+                      <button className='button'>JAVA </button>
+                      <button className='button'>DSA </button>
+                      
+                      </div>
+
+                  <div className='col-3'>
+                 <button className='button'>NodeJs </button>
+                 <button className='button'>ExpressJs </button>  
                   <button className='button'>Wordpress </button>
-                  <button className='button'>SEO</button>
-                  <button className='button'>JAVA </button>
-                <button className='button'>DSA </button>
-                          
-                
+                  </div>      
                   
-                  </div>  </center>      
-                  
+                      
+                      
+                      
                   </div>
               </div>
           
