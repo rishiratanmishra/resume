@@ -1,0 +1,223 @@
+.resume{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+
+.resume-header{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    border-bottom:2px solid  black ;
+}
+
+.header-left{
+/* background-color: rgb(10, 154, 159); */
+width: 70%;
+padding: 2%;
+margin-left: 2rem;
+}
+.my-name{
+    font-size: 4rem;
+    font-family: Quicksand;
+    margin-left: 2rem;
+}
+.map{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-family: Quicksand;
+    font-weight: 500;
+
+
+}
+.header-left p{
+    justify-content: space-between;
+    margin-left: 2rem;
+    font-family: Quicksand;
+    font-weight: 500;
+
+
+}
+
+.header-right{
+width: 30%;
+padding: 3%;
+
+}
+.header-right img{
+width: 60%;
+transform: scale(0.8);
+border: 2px solid green;
+border-radius:300px 300px ;
+margin-top: -3rem;
+float: right;
+margin-right: 10rem;
+
+}
+
+
+.social-icons {
+display: flex;
+width: 5%;
+flex-direction: column;
+margin-left: -3rem;
+ margin-top: -10rem;
+ padding: 1%;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: rgb(153, 0, 255);
+    
+}
+
+h3{
+    color: rgb(153, 0, 255);
+    font-family: Quicksand;
+
+
+}
+
+
+/*__________________Second Header______________________________*/
+
+.second-header{
+    display: flex;
+    border-bottom:2px solid ;
+
+}
+.education{
+    width:50%;
+    display: block;
+    padding: 2%;
+}
+
+.college{
+ font-size: 1.7rem;   
+ font-weight: 600;
+ margin-top: 1rem;
+ font-family: 'Amaranth', sans-serif;
+
+}
+
+.course-year{
+    margin-left: 13rem;
+    font-size: 1.3rem;
+    font-family: 'Merienda', cursive;
+    color: rgb(131, 124, 124);
+    float: right;
+}
+
+.btech p{
+    font-size: 16px;
+}
+
+.school-name{
+font-size: 1.7rem;   
+ font-weight: 600;
+ margin-top: 1rem;
+ font-family: 'Amaranth', sans-serif;
+
+}
+.school{
+    margin-left: 4rem;
+    font-size: 1.3rem;
+    color: rgb(131, 124, 124);
+    font-family: 'Merienda', cursive;
+    float: right;
+
+
+}
+.school-tenth{
+
+    margin-left: 17rem;
+    font-size: 1.3rem;
+    color: rgb(131, 124, 124);
+    font-family: 'Merienda', cursive;
+    float: right;
+
+
+
+}
+.skills{
+    width:50%;
+    display: block;
+    padding: 2%;
+    border-left:2px solid  ;
+
+}
+.skill-body{
+    display: flex;
+    flex-direction: column;
+    margin-top:3rem;
+    align-items: center;
+}
+.skill-body .col-2{
+    margin-top: 1rem;
+}
+.formobile{
+    display: none;
+}
+
+/*__________________Internships______________________________*/
+.internship{
+    width:100%;
+    padding: 3%;
+    border-bottom:2px solid ;
+}
+
+.internship-header{
+    text-align: center;
+}
+
+.internship-company{
+font-family: 'Amaranth', sans-serif;
+ font-size: 1.7rem;   
+ font-weight: 600;
+ margin-top: 1rem;
+}
+.internship-year{
+float: right;
+font-size: 1.3rem;
+font-family: 'Merienda', cursive;
+color: rgb(131, 124, 124);
+}
+
+.internship-role{
+    font-size: 1.2rem;
+    color: blue;
+
+}
+
+.works{
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: 4rem;
+}
+
+.works li a{
+    text-decoration: none;
+    font-weight: 800;
+}
+
+/*__________________Projects______________________________*/
+
+.projects{
+    width:100%;
+    padding: 3%;
+    border-bottom:2px solid ;
+}
+
+.project-1-title{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    font-family: 'Amaranth', sans-serif;
+    float: inline-start;
+}
+.awards{
+    border-bottom: none;
+}

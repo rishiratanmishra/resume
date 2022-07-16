@@ -1,0 +1,250 @@
+@media  screen and (max-width:786px) {
+    /* .resume{
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid black;
+    
+    } */
+    
+    .resume-header{
+        /* background-color: black; */
+        display: flex;
+        width: 100%;
+        height: 18vh;
+        border-bottom:2px solid  black ;
+    }
+    
+    .header-left{
+    /* background-color: rgb(10, 154, 159); */
+    width: 70%;
+    padding: 2%;
+    margin-left: 1rem;
+    /* background-color: rgb(12, 198, 71); */
+    }
+    .my-name{
+        font-size: 20px;
+        font-family: Quicksand;
+        margin-left: 2rem;
+    }
+    .map{
+        margin-top: 1rem;
+        margin-left: 2rem;
+        font-family: Quicksand;
+        font-weight: 500;
+        font-size: 10px;
+    
+    }
+    .header-left p{
+        justify-content: space-between;
+        margin-left: 2rem;
+        font-family: Quicksand;
+        font-weight: 500;
+        font-size: 10px;
+    
+    
+    }
+    
+    .header-right{
+    width: 30%;
+    padding: 3%;
+    
+    }
+    .header-right img{
+    width: 150%;
+    /* transform: scale(1); */
+    border: 2px solid green;
+    border-radius:300px 300px ;
+    margin-top: -1rem;
+    float: right;
+    margin-right: -1rem;
+    
+    }
+    
+    
+    .social-icons {
+        display: flex;
+        width: 15%;
+        flex-direction: column;
+        margin-left: -1rem;
+         margin-top: -6.5rem;
+    }
+    
+    .social-icons a{
+        height: 18px;
+        margin-bottom: 4px;
+        text-decoration: none;
+        color: rgb(153, 0, 255);
+        transform: scale(0.7);
+        
+    }
+    
+    h3{
+        color: rgb(153, 0, 255);
+        font-family: Quicksand;
+        text-align: center;
+    
+    
+    }
+    
+    
+    /*__________________Second Header______________________________*/
+    
+    .second-header{
+        display: block;
+        border-bottom:2px solid ;
+    
+    }
+    .education{
+        width:100%;
+        display: block;
+        padding: 2%;
+        border-bottom:2px solid ;
+    }
+    
+    .college{
+     font-size: 15px;   
+     font-weight: 600;
+     margin-top: 1rem;
+     font-family: 'Amaranth', sans-serif;
+    
+    }
+    
+    .course-year{
+        margin-left: 0rem;
+        font-size: 10px;
+        font-family: 'Merienda', cursive;
+        color: rgb(131, 124, 124);
+        float: right;
+    }
+    
+    .btech p{
+        font-size: 13px;
+    }
+    
+    .school-name{
+    font-size: 15px;   
+     font-weight: 600;
+     margin-top: 1rem;
+     font-family: 'Amaranth', sans-serif;
+    
+    }
+    .school{
+        margin-left: 0rem;
+        font-size: 10px;
+        color: rgb(131, 124, 124);
+        font-family: 'Merienda', cursive;
+        float: right;
+    
+    
+    }
+    .school-tenth{
+    
+        margin-left: 17rem;
+        font-size: 10px;
+        color: rgb(131, 124, 124);
+        font-family: 'Merienda', cursive;
+        float: right;
+    
+    
+    
+    }
+    .skills{
+        width:100%;
+        display: block;
+        padding: 11%;
+        border-left:none  ;
+    
+    }
+    .skill-body{
+        display: flex;
+        flex-direction: column;
+        margin-top:2rem;
+    }
+    .skill-body .col-2{
+        margin-top: 1rem;
+        margin-left: -1.8rem;
+        justify-items: center;
+        align-items: center;
+    }
+
+    /*__________________Internships______________________________*/
+    .internship{
+        width:100%;
+        padding: 3%;
+        border-bottom:2px solid ;
+    }
+    
+    .internship-header{
+        text-align: center;
+    }
+    
+    .internship-company{
+    font-family: 'Amaranth', sans-serif;
+     font-size: 20px;   
+     font-weight: 600;
+     margin-top: 1rem;
+    }
+    .internship-year{
+    float: right;
+    font-size: 10px;
+    font-family: 'Merienda', cursive;
+    color: rgb(131, 124, 124);
+    }
+    
+    .internship-role{
+        font-size: 15px;
+        color: blue;
+    
+    }
+
+    .internship p{
+        font-size: 13px;
+
+    }
+    
+    .works{
+        margin-top: 2rem;
+        width: 80%;
+        margin-left: 1rem;
+    }
+    .works li{
+        margin-top: 7px;
+    }
+    
+    .works li a{
+        text-decoration: none;
+        font-weight: 800;
+    }
+    
+    /*__________________Projects______________________________*/
+    
+    .projects{
+        width:100%;
+        padding: 3%;
+        border-bottom:2px solid ;
+    }
+    
+    .project-1-title{
+        margin-top: 1rem;
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        font-family: 'Amaranth', sans-serif;
+        float: inline-start;
+    }
+    .project-1-about{
+        font-size: 15px;
+    }
+    .awards{
+        border-bottom: none;
+    }
+    
+}
+.with-projects{
+    margin-top: 10px;
+}
+
+.with-projects li{
+    margin-top: 10px;
+}
