@@ -1,8 +1,6 @@
 
   @media only screen and (max-width: 980px) {
-    body {
-      background-color: lightblue;
-    }
+   
       .resume-header{
         display: flex;
         width: 100%;
